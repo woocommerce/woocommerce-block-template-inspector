@@ -20,9 +20,9 @@ if ( ! function_exists( 'woocommerce_block_template_inspector_enqueue_script' ) 
 
 		wp_enqueue_script(
 			'woocommerce-block-template-inspector',
-			$js_script_src,
+			plugin_dir_url( __FILE__ ) . 'woocommerce-block-template-inspector.js',
 			[],
-			filemtime( $js_script_src ),
+			filemtime( dirname( __FILE__ ) . '/woocommerce-block-template-inspector.js' ),
 			true
 		);
 	}
