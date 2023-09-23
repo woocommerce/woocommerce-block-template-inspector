@@ -5,7 +5,7 @@ document.addEventListener( 'DOMContentLoaded', function() {
         const inspectorPanel = document.querySelector( 'body' ).appendChild( document.createElement('div') );
         inspectorPanel.id = inspectorPanelId;
 
-        inspectorPanel.style.position = 'absolute';
+        inspectorPanel.style.position = 'fixed';
         inspectorPanel.style.bottom = '0';
         inspectorPanel.style.left = '0';
         inspectorPanel.style.zIndex = '999999';
