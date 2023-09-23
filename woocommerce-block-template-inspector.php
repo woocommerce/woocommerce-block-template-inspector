@@ -5,7 +5,7 @@
  * Description: Enables an experimental block template inspector to help with development and debugging of the new product editor. For use only on development sites. Do not use on production sites.
  * Author: WooCommerce
  * Author URI: https://woocommerce.com/
- * Version: 0.1.0
+ * Version: 0.1.1
  * Requires at least: 6.2
  * Requires PHP: 7.4
  *
